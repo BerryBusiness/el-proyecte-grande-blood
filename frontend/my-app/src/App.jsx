@@ -7,10 +7,8 @@ export default function App() {
     const [selectedDate, setSelectedDate] = useState(new Date());
     console.log(selectedDate);
 
-    const minTime = new Date();
-    minTime.setHours(9, 0, 0);
-    const maxTime = new Date();
-    maxTime.setHours(17, 0, 0);
+    const minTime = new Date(0,0,0,9,0,0);
+    const maxTime = new Date(0, 0, 0, 17, 0, 0);
 
     const filterWeekends = (date) => {
         return date.getDay() !== 0 && date.getDay() !== 6;
@@ -24,8 +22,8 @@ export default function App() {
         <div>
             <DatePicker
                 showTimeSelect
-                minTime={new Date(0, 0, 0, 9, 0)}
-                maxTime={new Date(0, 0, 0, 17, 0)}
+                minTime={minTime}
+                maxTime={maxTime}
                 filterDate={date => {
                     return filterPastDates(date) && filterWeekends(date);
                 }}
