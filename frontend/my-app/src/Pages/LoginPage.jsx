@@ -10,7 +10,16 @@ const fetchUser = (user) => {
             "Content-Type": "application/json",
         },
         body: JSON.stringify(user),
-    }).then((res) => res.json());
+    }).then((res) => {
+            console.log("RES: ", res);
+            if (res.ok) {
+                return res.json();
+            } else {
+                console.error("Invalid username or password");
+                return false;
+            }
+        }
+    );
 };
 
 const LoginPage = () => {
@@ -23,16 +32,22 @@ const LoginPage = () => {
 
         fetchUser(user)
             .then((data) => {
-                const token = data.token
-                setAppointment(data.id)
-                localStorage.setItem('jwtToken', token);
-                setLoading(false);
-                navigate(`/user/${data.id}`);
+                console.log(data);
+                if (!data) {
+                    navigate("/")
+                    setLoading(false);
+                } else {
+                    const token = data.token
+                    setAppointment(data.id)
+                    localStorage.setItem('jwtToken', token);
+                    setLoading(false);
+                    navigate(`/user/${data.id}`);
+                }
             });
     };
 
     if (loading) {
-        return <Loading />;
+        return <Loading/>;
     }
 
     return (
