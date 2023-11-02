@@ -112,7 +112,7 @@ public class UserService {
         if (optionalUser.isPresent()) {
             User user = optionalUser.get();
             user.setName(updatedUser.getName());
-            user.setPassword(passwordEncoder.encode(updatedUser.getPassword()));
+//            user.setPassword(passwordEncoder.encode(updatedUser.getPassword()));
             user.setEmail(updatedUser.getEmail());
             userRepository.save(user);
             return true;
