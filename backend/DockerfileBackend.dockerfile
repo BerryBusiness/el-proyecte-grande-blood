@@ -17,15 +17,20 @@ FROM eclipse-temurin:17-jdk-jammy
 
 WORKDIR /app
 
+# Copy the Maven wrapper and pom.xml
 COPY .mvn/ .mvn
 COPY mvnw pom.xml ./
-RUN chmod +x mvnw
+
+# Fix line endings and set script as executable
 RUN apt-get update \
     && apt-get install -y dos2unix \
     && dos2unix ./mvnw \
-    && chmod +x ./mvnw \
-    && ./mvnw dependency:resolve
+    && chmod +x ./mvnw
 
+# Resolve dependencies
+RUN ./mvnw dependency:resolve
+
+# Copy the source code
 COPY src ./src
 
 EXPOSE 8080
