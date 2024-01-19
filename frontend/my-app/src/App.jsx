@@ -5,6 +5,7 @@ import Loading from "./Components/Loading";
 import moment from 'moment';
 import Header from "./Components/Header.jsx";
 import UserContext from "./Pages/UserContext.jsx";
+import Button from './Components/Button';
 
 const fetchUserById = (id) => {
     const token = localStorage.getItem('jwtToken');
@@ -74,11 +75,16 @@ function App() {
     if (loading) {
         return <Loading/>;
     }
+    const handleClick = () => {
+        console.log('Button clicked!');
+    };
 
     return (
         <div className="outerContainer">
             <div className="headerContainer">
-                <Header/>
+                <Header
+                    handleClick={handleClick}
+                />
 
                 {isLoggedIn && isAdmin &&
                     <div>
