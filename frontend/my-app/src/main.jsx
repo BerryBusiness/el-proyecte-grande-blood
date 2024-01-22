@@ -10,6 +10,7 @@ import UpdatePage from "./Pages/UpdatePage.jsx";
 import AdminPage from "./Pages/AdminPage.jsx";
 import {UserProvider} from "./Pages/UserContext.jsx";
 import ContactPage from "./Pages/ContactPage.jsx";
+import PackagesPage from "./Pages/Packs/PackagesPage.jsx";
 
 
 
@@ -48,6 +49,10 @@ const router = createBrowserRouter([
             {
                 path: "/contact",
                 element: <ContactPage/>,
+            },
+            {
+                path: "/packages",
+                element: <PackagesPage/>,
             },
         ],
     },
