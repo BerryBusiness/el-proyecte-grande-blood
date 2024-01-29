@@ -6,6 +6,7 @@ import moment from 'moment';
 import Header from "./Components/Header.jsx";
 import UserContext from "./Pages/UserContext.jsx";
 import Button from './Components/Button';
+import LinkButton from "./Components/LinkButton.jsx";
 
 const fetchUserById = (id) => {
     const token = localStorage.getItem('jwtToken');
@@ -83,11 +84,12 @@ function App() {
         <div className="outerContainer">
             <div className="headerContainer">
                 <Header
-                    handleClick={handleClick}
+
                 />
 
                 {isLoggedIn && isAdmin &&
                     <div>
+                        <LinkButton to="/admin" text="List all users" onClick={handleAdminClick}/>
                         <Link to="/admin" state={{from: `${id}`}}>
                             <button className='adminButton' type="button">List all users</button>
                         </Link>
