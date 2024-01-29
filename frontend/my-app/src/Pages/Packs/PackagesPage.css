@@ -1,3 +1,27 @@
 .PanelTable {
   padding: 0.5rem;
 }
+table {
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+table tbody tr {
+  background-color: rgb(248, 248, 248);
+}
+
+table tbody tr:nth-child(even) {
+  background-color: rgb(211, 211, 211);
+}
+
+table td,
+table th {
+  padding: 0.2rem;
+}
+
+table button {
+  padding: 0.2rem 1rem;
+  margin: 0.1rem;
+}
+
