@@ -6,10 +6,10 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
 
-@Component
-@RequiredArgsConstructor
+//@Component
+//@RequiredArgsConstructor
 public class AdminCreator {
-
+/*
     private final UserRepository userRepository;
     private final PasswordEncoder passwordEncoder;
 
@@ -38,5 +38,5 @@ public class AdminCreator {
                 .role(Role.ADMIN)
                 .build();
         userRepository.save(mark);
-    }
+    }*/
 }

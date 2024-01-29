@@ -6,11 +6,11 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
 
-@Component
-@RequiredArgsConstructor
+//@Component
+//@RequiredArgsConstructor
 public class UserCreator {
 
-    private final UserRepository userRepository;
+   /* private final UserRepository userRepository;
     private final PasswordEncoder passwordEncoder;
 
     @PostConstruct
@@ -38,5 +38,5 @@ public class UserCreator {
                 .role(Role.USER)
                 .build();
         userRepository.save(benji);
-    }
+    }*/
 }
