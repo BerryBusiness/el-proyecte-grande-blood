@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import "./PackagesPage.css";
 import React, {useEffect, useState} from "react";
 import Loading from "../../Components/Loading/index.js";
+import Header from "../../Components/Header.jsx";
 
 
 const fetchPackagesAll = () => {
@@ -32,9 +33,10 @@ const PackagesPage = () => {
     return <Loading/>;
 }
     return (
-
+        <>
+        <Header/>
     <div className="PanelTable">
-        <table>
+        <table  className="table table-striped table-hover table-responsive">
             <thead>
             <tr>
                 <th>Vizsgálati Elemek</th>
@@ -64,6 +66,7 @@ const PackagesPage = () => {
             </tbody>
         </table>
     </div>
+        </>
 )
 };
 
