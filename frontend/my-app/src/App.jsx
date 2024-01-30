@@ -1,5 +1,5 @@
 import './App.css'
-import {Link, useNavigate, useParams} from "react-router-dom";
+import {Link, useLocation, useNavigate, useParams} from "react-router-dom";
 import React, {useContext, useEffect, useState} from "react";
 import Loading from "./Components/Loading";
 import moment from 'moment';
@@ -7,6 +7,7 @@ import Header from "./Components/Header.jsx";
 import UserContext from "./Pages/UserContext.jsx";
 import Button from './Components/Button';
 import LinkButton from "./Components/LinkButton.jsx";
+import Card from "./Components/Card.jsx";
 
 const fetchUserById = (id) => {
     const token = localStorage.getItem('jwtToken');
@@ -47,17 +48,14 @@ function App() {
     const {user, setUser} = useContext(UserContext);
     const {id} = useParams();
     const navigate = useNavigate();
+    const location = useLocation();
+    const currentPath = location.pathname;
 
     const [loading, setLoading] = useState(false);
-    const [isLoggedIn, setIsLoggedIn] = useState(false);
     const [appointment, setAppointment] = useState(null);
     const [isAdmin, setIsAdmin] = useState(false);
 
-    if (id && !isLoggedIn) {
-        setIsLoggedIn(true);
-    }
-
-    useEffect(() => {
+      useEffect(() => {
         setLoading(true);
         if (id !== undefined) {
             fetchUserById(id)
@@ -76,106 +74,61 @@ function App() {
     if (loading) {
         return <Loading/>;
     }
-    const handleClick = () => {
-        console.log('Button clicked!');
+    const handleDeleteAppointmentClick = () => {
+        setAppointment(null);
+        return deleteAppointment(appointment.id);
     };
 
     return (
         <div className="outerContainer">
             <div className="headerContainer">
                 <Header
-
+                    isAdmin={isAdmin}
+                    appointment={appointment}
+                    id={id}
                 />
 
-                {isLoggedIn && isAdmin &&
-                    <div>
-                        <LinkButton to="/admin" text="List all users" onClick={handleAdminClick}/>
-                        <Link to="/admin" state={{from: `${id}`}}>
-                            <button className='adminButton' type="button">List all users</button>
-                        </Link>
-                    </div>
-                }
-
-                {appointment && isLoggedIn &&
+                {appointment && user &&
                     <div className="message">
                         {`You have a reserved appointment at: ${moment(appointment.appointment).format('YYYY.MM.DD HH:mm')}`}
                     </div>
                 }
 
-                {!isLoggedIn &&
+                {user && !appointment &&
                     <div className="buttonContainer">
-                        <Link to="/login">
-                            <button className='loginButton' type="button">Login</button>
-                        </Link>
-                        <Link to="/register">
-                            <button className='registerButton' type="button">Register</button>
-                        </Link>
+                        <LinkButton to={`/calendar/${id}`} text="Reserve an appointment"/>
                     </div>
                 }
 
-                {isLoggedIn &&
+                {appointment && user &&
                     <div className="buttonContainer">
-                        <Link to={`/update/${id}`}>
-                            <button className='updateButton' type="button">Update Account</button>
-                        </Link>
-                        <button className='removeButton' type='button' onClick={() => {
-                            if (window.confirm("Are you sure you want to delete your account?")) {
-                                deleteUser(id)
-                                    .then(() => {
-                                        setIsLoggedIn(false);
-                                        setUser(null);
-                                        navigate("/");
-                                    })
-                            }
-                        }}>Remove Account
-                        </button>
-                    </div>
-                }
-
-                {isLoggedIn && !appointment &&
-                    <div className="buttonContainer">
-                        <Link to={`/calendar/${id}`}>
-                            <button className='reservationButton' type="button">Reserve an appointment</button>
-                        </Link>
-                        <Link to="/">
-                            <button className='logoutButton' type="button" onClick={() => {
-                                localStorage.removeItem('jwtToken');
-                                setUser(null);
-                                setAppointment(null);
-                                setIsLoggedIn(false);
-                            }}>
-                                Log Out
-                            </button>
-                        </Link>
-                    </div>
-                }
-
-                {appointment && isLoggedIn &&
-                    <div className="buttonContainer">
-                        <button className='deleteButton' type="button" onClick={() => {
-                            setAppointment(null);
-                            return deleteAppointment(appointment.id);
-                        }}>
-                            Delete Appointment
-                        </button>
-                        <Link to="/">
-                            <button className='logoutButton' type="button" onClick={() => {
-                                localStorage.removeItem('jwtToken');
-                                setUser(null);
-                                setAppointment(null);
-                                setIsLoggedIn(false);
-                            }}>
-                                Log Out
-                            </button>
-                        </Link>
+                        <Button text="Delete Appointment" onClick={handleDeleteAppointmentClick}/>
                     </div>
                 }
             </div>
-
-            <div className="imageContainer">
-                <img src="/NurseTom.png" alt="Nurse 1" className="nurseImage"/>
-                <img src="/NurseTom3.png" alt="Nurse 2" className="nurseImage"/>
+            <div className="container">
+                <div className="row">
+                    <div className="col-md-4">
+                        { <Card
+                            imgurl={"https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGFib3JhdG9yeXxlbnwwfHwwfHx8MA%3D%3D"}
+                            text={"Over 300 tests"}
+                        />}
+                    </div>
+                    <div className="col-md-4">
+                        { <Card
+                            imgurl={"https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGFib3JhdG9yeXxlbnwwfHwwfHx8MA%3D%3D"}
+                            text={"Over 300 tests"}
+                        />}
+                    </div>
+                    <div className="col-md-4">
+                        { <Card
+                            imgurl={"https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGFib3JhdG9yeXxlbnwwfHwwfHx8MA%3D%3D"}
+                            text={"Over 300 tests"}
+                        />}
+                    </div>
+                </div>
             </div>
+
         </div>
     );
 }
