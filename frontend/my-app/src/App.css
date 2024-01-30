@@ -68,7 +68,7 @@
   margin-right: 20px;
 }
 .mainTitle{
-  background-color: #C84630; /*#8d020b;*/
+  background-color: #A5101F; /*#8d020b;*/
   color: white;
   font-size: 28px;
   display: flex;
@@ -78,18 +78,20 @@
   height: 10vh;
 
 }
-
-.imageContainer {
+.card-img-overlay {
   display: flex;
   justify-content: center;
-  gap: 15px;
-  padding: 15px 0;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  height: 100%;
+}
+.card-text {
+  width: 100%;
+  text-align: center;
 }
 
-.nurseImage {
-  max-width: 45%;
-  height: auto;
-}
 .calendar {
 
   display: flex;
@@ -153,7 +155,7 @@ a {
   text-decoration: inherit;
 }
 a:hover {
-  color: #008080;
+  color: #B9CCE0;
 }
 
 body {
@@ -169,14 +171,14 @@ h1 {
   line-height: 1.1;
 }
 .btn-primary {
-  background-color: #165593;
-  border-color: #165593;
+  background-color: #567568;
+  border-color: #567568;
 }
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
-  background-color: #D3D3D3;
-  border-color: #D3D3D3;
+  background-color: #7EB09B;
+  border-color: #7EB09B;
   transition: background-color 0.5s;
 }
 button {
@@ -186,12 +188,12 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #165593;
+  background-color: #567568;
   cursor: pointer;
   transition: border-color 0.25s;
 }
 button:hover {
-  background-color: #008080;
+  background-color: #D3D3D3;
 }
 button:focus,
 button:focus-visible {
