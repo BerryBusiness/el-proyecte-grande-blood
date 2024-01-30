@@ -17,8 +17,7 @@ const AdminPage = () => {
     const [loading, setLoading] = useState(true);
     const navigate = useNavigate();
     const [users, setUsers] = useState([]);
-    const location = useLocation();
-    const {from} = location.state;
+
 
     useEffect(() => {
         fetchUsers()
@@ -53,14 +52,7 @@ const AdminPage = () => {
                 ))}
                 </tbody>
             </table>
-            <Link to="/">
-                <button className='logoutButton' type="button" onClick={() => {
-                    localStorage.removeItem('jwtToken');
-                }}>
-                    Log Out
-                </button>
-            </Link>
-            <button className='backButton' type="button" onClick={() => navigate(`/user/${from}`)}>
+            <button className='backButton' type="button" onClick={() => navigate(-1)}>
                 Back
             </button>
         </div>

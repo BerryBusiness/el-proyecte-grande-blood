@@ -1,9 +1,14 @@
-import {useState} from "react";
+import React, {useState} from "react";
+import LinkButton from "./LinkButton.jsx";
+import Button from "./Button.jsx";
+import {useLocation} from "react-router-dom";
 
-const UserForm = ({onSave, onCancel, disabled, user}) => {
+const UserForm = ({onSave, onCancel, disabled, user, setUser}) => {
     const [name, setName] = useState(user?.name ?? "");
     const [password, setPassword] = useState("");
     const [email, setEmail] = useState(user?.email ?? "");
+    const location = useLocation();
+    const currentPath = location.pathname;
 
     function isEmpty(str) {
         return !str.trim().length;
@@ -95,14 +100,31 @@ const UserForm = ({onSave, onCancel, disabled, user}) => {
                     )}
                 </div>
                 <div className="buttonContainer">
-                    <div className="buttons">
-                        <button type="submit" disabled={disabled}>
-                            {user ? "Update User" : "Submit"}
-                        </button>
-                        <button type="button" onClick={onCancel}>
-                            Cancel
-                        </button>
-                    </div>
+                    <Button
+                        text={user ? "Update User" : "Submit"}
+                        onClick={onSave}
+                        disabled={disabled}
+                    />
+                    {currentPath !== "/register" && (
+                        <Button
+                            text="Remove Account"
+                            onClick={() => {
+                                if (window.confirm("Are you sure you want to delete your account?")) {
+                                    deleteUser(id)
+                                        .then(() => {
+                                            /* setIsLoggedIn(false);*/
+                                            setUser(null);
+                                            navigate("/");
+                                        })
+                                }
+                            }}
+                        />
+                    )}
+
+                    <Button
+                        text="Cancel"
+                        onClick={onCancel}
+                    />
                 </div>
             </form>
         </div>
