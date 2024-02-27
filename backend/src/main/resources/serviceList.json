@@ -1,0 +1,2267 @@
+[
+  {
+    "elem": "Fruktózamin",
+    "area": "Klinikai kémia",
+    "price": 1400,
+    "result": 3
+  },
+  {
+    "elem": "Glükóz",
+    "area": "Klinikai kémia",
+    "price": 210,
+    "result": 1
+  },
+  {
+    "elem": "Hemoglobin A1c (HbA1c)",
+    "area": "Klinikai kémia",
+    "price": 3800,
+    "result": 2
+  },
+  {
+    "elem": "Alkalikus foszfatáz",
+    "area": "Klinikai kémia",
+    "price": 210,
+    "result": 1
+  },
+  {
+    "elem": "Direkt bilirubin",
+    "area": "Klinikai kémia",
+    "price": 210,
+    "result": 1
+  },
+  {
+    "elem": "Gamma GT (GGT)",
+    "area": "Klinikai kémia",
+    "price": 210,
+    "result": 1
+  },
+  {
+    "elem": "GOT (ASAT)",
+    "area": "Klinikai kémia",
+    "price": 210,
+    "result": 1
+  },
+  {
+    "elem": "GPT (ALAT)",
+    "area": "Klinikai kémia",
+    "price": 210,
+    "result": 1
+  },
+  {
+    "elem": "Laktát-dehidrogenáz (LDH)",
+    "area": "Klinikai kémia",
+    "price": 210,
+    "result": 1
+  },
+  {
+    "elem": "Pszeudo-kolinészteráz",
+    "area": "Klinikai kémia",
+    "price": 650,
+    "result": 3
+  },
+  {
+    "elem": "Totál bilirubin",
+    "area": "Klinikai kémia",
+    "price": 210,
+    "result": 1
+  },
+  {
+    "elem": "Húgysav",
+    "area": "Klinikai kémia",
+    "price": 210,
+    "result": 1
+  },
+  {
+    "elem": "Karbamid",
+    "area": "Klinikai kémia",
+    "price": 210,
+    "result": 1
+  },
+  {
+    "elem": "Kreatinin",
+    "area": "Klinikai kémia",
+    "price": 350,
+    "result": 1
+  },
+  {
+    "elem": "Amiláz",
+    "area": "Klinikai kémia",
+    "price": 500,
+    "result": 1
+  },
+  {
+    "elem": "Lipáz",
+    "area": "Klinikai kémia",
+    "price": 650,
+    "result": 1
+  },
+  {
+    "elem": "Foszfát (P)",
+    "area": "Klinikai kémia",
+    "price": 210,
+    "result": 1
+  },
+  {
+    "elem": "Kalcium (Ca)",
+    "area": "Klinikai kémia",
+    "price": 210,
+    "result": 1
+  },
+  {
+    "elem": "Kálium (K)",
+    "area": "Klinikai kémia",
+    "price": 210,
+    "result": 1
+  },
+  {
+    "elem": "Klorid (Cl)",
+    "area": "Klinikai kémia",
+    "price": 210,
+    "result": 1
+  },
+  {
+    "elem": "Magnézium (Mg)",
+    "area": "Klinikai kémia",
+    "price": 210,
+    "result": 1
+  },
+  {
+    "elem": "Nátrium (Na)",
+    "area": "Klinikai kémia",
+    "price": 210,
+    "result": 1
+  },
+  {
+    "elem": "Albumin",
+    "area": "Klinikai kémia",
+    "price": 210,
+    "result": 1
+  },
+  {
+    "elem": "alfa1-antitripszin",
+    "area": "Klinikai kémia",
+    "price": 3600,
+    "result": 10
+  },
+  {
+    "elem": "C reaktív protein (CRP)",
+    "area": "Klinikai kémia",
+    "price": 1300,
+    "result": 1
+  },
+  {
+    "elem": "C reaktív protein ultraszenzitív (hsCRP)",
+    "area": "Klinikai kémia",
+    "price": 1300,
+    "result": 1
+  },
+  {
+    "elem": "Cöruloplazmin",
+    "area": "Klinikai kémia",
+    "price": 4000,
+    "result": 5
+  },
+  {
+    "elem": "Haptoglobin",
+    "area": "Klinikai kémia",
+    "price": 4000,
+    "result": 5
+  },
+  {
+    "elem": "Összfehérje",
+    "area": "Klinikai kémia",
+    "price": 210,
+    "result": 1
+  },
+  {
+    "elem": "Ferritin",
+    "area": "Klinikai kémia",
+    "price": 2800,
+    "result": 1
+  },
+  {
+    "elem": "Szolubilis transzferrin receptor",
+    "area": "Klinikai kémia",
+    "price": 5800,
+    "result": 5
+  },
+  {
+    "elem": "Transzferrin",
+    "area": "Klinikai kémia",
+    "price": 750,
+    "result": 1
+  },
+  {
+    "elem": "Vas (Fe)",
+    "area": "Klinikai kémia",
+    "price": 210,
+    "result": 1
+  },
+  {
+    "elem": "HDL-koleszterin",
+    "area": "Klinikai kémia",
+    "price": 550,
+    "result": 1
+  },
+  {
+    "elem": "Koleszterin",
+    "area": "Klinikai kémia",
+    "price": 210,
+    "result": 1
+  },
+  {
+    "elem": "LDL-koleszterin",
+    "area": "Klinikai kémia",
+    "price": 700,
+    "result": 1
+  },
+  {
+    "elem": "Trigliceridek",
+    "area": "Klinikai kémia",
+    "price": 210,
+    "result": 1
+  },
+  {
+    "elem": "Aminosav differenciálás",
+    "area": "Klinikai kémia",
+    "price": 22000,
+    "result": 5
+  },
+  {
+    "elem": "Apolipoprotein A1",
+    "area": "Klinikai kémia",
+    "price": 5800,
+    "result": 5
+  },
+  {
+    "elem": "Apolipoprotein A2",
+    "area": "Klinikai kémia",
+    "price": 5800,
+    "result": 15
+  },
+  {
+    "elem": "Apolipoprotein B",
+    "area": "Klinikai kémia",
+    "price": 5800,
+    "result": 5
+  },
+  {
+    "elem": "Cisztatin C",
+    "area": "Klinikai kémia",
+    "price": 5800,
+    "result": 5
+  },
+  {
+    "elem": "CK-izoenzimek",
+    "area": "Klinikai kémia",
+    "price": 9000,
+    "result": 5
+  },
+  {
+    "elem": "CK-MB koncentráció",
+    "area": "Klinikai kémia",
+    "price": 2500,
+    "result": 1
+  },
+  {
+    "elem": "Csontspecifikus alkalikus foszfatáz (BAP)",
+    "area": "Klinikai kémia",
+    "price": 11000,
+    "result": 5
+  },
+  {
+    "elem": "Epesav",
+    "area": "Klinikai kémia",
+    "price": 7000,
+    "result": 5
+  },
+  {
+    "elem": "Eritropoetin",
+    "area": "Klinikai kémia",
+    "price": 11000,
+    "result": 5
+  },
+  {
+    "elem": "Fenilalanin",
+    "area": "Klinikai kémia",
+    "price": 7400,
+    "result": 5
+  },
+  {
+    "elem": "Homocisztein",
+    "area": "Klinikai kémia",
+    "price": 9000,
+    "result": 5
+  },
+  {
+    "elem": "Interleukin-6 (IL-6)",
+    "area": "Klinikai kémia",
+    "price": 11000,
+    "result": 15
+  },
+  {
+    "elem": "Kreatin-kináz (CK)",
+    "area": "Klinikai kémia",
+    "price": 300,
+    "result": 1
+  },
+  {
+    "elem": "Lipid protein profil (LIPODENS)",
+    "area": "Klinikai kémia",
+    "price": 3400,
+    "result": 15
+  },
+  {
+    "elem": "Lipoprotein (a)",
+    "area": "Klinikai kémia",
+    "price": 6600,
+    "result": 5
+  },
+  {
+    "elem": "NT-ProBNP",
+    "area": "Klinikai kémia",
+    "price": 14000,
+    "result": 5
+  },
+  {
+    "elem": "Omega-zsírsav profil",
+    "area": "Klinikai kémia",
+    "price": 9000,
+    "result": 15
+  },
+  {
+    "elem": "Pankreász specifikus elasztáz (szérum)",
+    "area": "Klinikai kémia",
+    "price": 1100,
+    "result": 7
+  },
+  {
+    "elem": "Prokalcitonin",
+    "area": "Klinikai kémia",
+    "price": 16000,
+    "result": 2
+  },
+  {
+    "elem": "SFLT1-PLGF arány",
+    "area": "Klinikai kémia",
+    "price": 34000,
+    "result": 5
+  },
+  {
+    "elem": "Szérum Amiloid A (SAA)",
+    "area": "Klinikai kémia",
+    "price": 5800,
+    "result": 5
+  },
+  {
+    "elem": "Szérum ozmolalitás",
+    "area": "Klinikai kémia",
+    "price": 1500,
+    "result": 5
+  },
+  {
+    "elem": "Troponin-I (hs-cTnI)",
+    "area": "Klinikai kémia",
+    "price": 5000,
+    "result": 1
+  },
+  {
+    "elem": "Ciklosporin A",
+    "area": "gyógyszerszint",
+    "price": 6500,
+    "result": 15
+  },
+  {
+    "elem": "Digoxin",
+    "area": "gyógyszerszint",
+    "price": 5000,
+    "result": 5
+  },
+  {
+    "elem": "Karbamazepin",
+    "area": "gyógyszerszint",
+    "price": 7000,
+    "result": 5
+  },
+  {
+    "elem": "Lítium (Li)",
+    "area": "gyógyszerszint",
+    "price": 1900,
+    "result": 15
+  },
+  {
+    "elem": "Dopamin",
+    "area": "gyógyszerszint",
+    "price": 8000,
+    "result": "?"
+  },
+  {
+    "elem": "Valproinsav",
+    "area": "Hematológia",
+    "price": 7000,
+    "result": 5
+  },
+  {
+    "elem": "Retikulocita",
+    "area": "Hematológia",
+    "price": 2000,
+    "result": 1
+  },
+  {
+    "elem": "Vérkép",
+    "area": "Hematológia",
+    "price": 800,
+    "result": 1
+  },
+  {
+    "elem": "Vörösvérsejt süllyedés",
+    "area": "Hemosztázis",
+    "price": 1200,
+    "result": 1
+  },
+  {
+    "elem": "Aktivált parciális tromboplasztin idő (APTI)",
+    "area": "Hemosztázis",
+    "price": 1045,
+    "result": 1
+  },
+  {
+    "elem": "Antitrombin III",
+    "area": "Hemosztázis",
+    "price": 6400,
+    "result": 5
+  },
+  {
+    "elem": "Anti-Xa (LMW-Heparin)",
+    "area": "Hemosztázis",
+    "price": 9000,
+    "result": 5
+  },
+  {
+    "elem": "APC-rezisztencia",
+    "area": "Hemosztázis",
+    "result": 10
+  },
+  {
+    "elem": "D-dimer",
+    "area": "Hemosztázis",
+    "price": 6400,
+    "result": 1
+  },
+  {
+    "elem": "Faktor VIII",
+    "area": "Hemosztázis",
+    "price": 10000,
+    "result": 5
+  },
+  {
+    "elem": "Faktor XIII",
+    "area": "Hemosztázis",
+    "price": 7000,
+    "result": 5
+  },
+  {
+    "elem": "Fibrinogén",
+    "area": "Hemosztázis",
+    "price": 1500,
+    "result": 1
+  },
+  {
+    "elem": "Lupusz antikoaguláns",
+    "area": "Hemosztázis",
+    "price": 12500,
+    "result": 5
+  },
+  {
+    "elem": "Protein C aktivitás",
+    "area": "Hemosztázis",
+    "price": 12500,
+    "result": 5
+  },
+  {
+    "elem": "Protein S aktivitás",
+    "area": "Hemosztázis",
+    "price": 12500,
+    "result": 5
+  },
+  {
+    "elem": "Protrombin (INR)",
+    "area": "Hemosztázis",
+    "price": 700,
+    "result": 1
+  },
+  {
+    "elem": "Szabad protein S antigén",
+    "area": "Hemosztázis",
+    "price": 19500,
+    "result": 5
+  },
+  {
+    "elem": "Trombin idő",
+    "area": "Hemosztázis",
+    "price": 850,
+    "result": 1
+  },
+  {
+    "elem": "von Willebrand faktor antigén (vWF Ag)",
+    "area": "Hemosztázis",
+    "price": 18000,
+    "result": "5-15"
+  },
+  {
+    "elem": "von Willebrand faktor antigén (vWF Ag)",
+    "area": "Hemosztázis",
+    "result": "5-16"
+  },
+  {
+    "elem": "von Willebrand faktor multimer analízis",
+    "area": "Hemosztázis",
+    "price": 57000,
+    "result": "5-15"
+  },
+  {
+    "elem": "17-OH progeszteron",
+    "area": "Endokrinológia",
+    "price": 5000,
+    "result": 10
+  },
+  {
+    "elem": "5-HIAA (vizelet)",
+    "area": "Endokrinológia",
+    "price": 22000,
+    "result": 5
+  },
+  {
+    "elem": "ACTH",
+    "area": "Endokrinológia",
+    "price": 5500,
+    "result": 5
+  },
+  {
+    "elem": "Adiponektin",
+    "area": "Endokrinológia",
+    "price": 17000,
+    "result": 15
+  },
+  {
+    "elem": "Aldoszteron",
+    "area": "Endokrinológia",
+    "price": 11000,
+    "result": 5
+  },
+  {
+    "elem": "Androsztendion",
+    "area": "Endokrinológia",
+    "price": 5500,
+    "result": 5
+  },
+  {
+    "elem": "Anti-Müllerian hormon (AMH)",
+    "area": "Endokrinológia",
+    "price": 10000,
+    "result": 3
+  },
+  {
+    "elem": "Anti-tireoglobulin (anti-TG)",
+    "area": "Endokrinológia",
+    "price": 3300,
+    "result": 2
+  },
+  {
+    "elem": "Anti-TPO",
+    "area": "Endokrinológia",
+    "price": 3300,
+    "result": 2
+  },
+  {
+    "elem": "Béta-crosslaps (kollagén keresztkötés)",
+    "area": "Endokrinológia",
+    "price": 6500,
+    "result": 5
+  },
+  {
+    "elem": "C-peptid",
+    "area": "Endokrinológia",
+    "price": 5500,
+    "result": 5
+  },
+  {
+    "elem": "CT-pro-ADH (kopeptin)",
+    "area": "Endokrinológia",
+    "price": 11000,
+    "result": 5
+  },
+  {
+    "elem": "DHEA-szulfát (DHEAS)",
+    "area": "Endokrinológia",
+    "price": 3800,
+    "result": 2
+  },
+  {
+    "elem": "Dihidro-tesztoszteron",
+    "area": "Endokrinológia",
+    "price": 22000,
+    "result": 5
+  },
+  {
+    "elem": "Follikulus stimuláló hormon (FSH)",
+    "area": "Endokrinológia",
+    "price": 3300,
+    "result": 2
+  },
+  {
+    "elem": "Gasztrin",
+    "area": "Endokrinológia",
+    "price": 11000,
+    "result": 5
+  },
+  {
+    "elem": "hCG (humán korion-gonadotropin)",
+    "area": "Endokrinológia",
+    "price": 3300,
+    "result": 2
+  },
+  {
+    "elem": "Hisztamin",
+    "area": "Endokrinológia",
+    "price": 19000,
+    "result": 7
+  },
+  {
+    "elem": "Inhibin B",
+    "area": "Endokrinológia",
+    "price": 17000,
+    "result": 7
+  },
+  {
+    "elem": "Inzulin",
+    "area": "Endokrinológia",
+    "price": 3400,
+    "result": 2
+  },
+  {
+    "elem": "Inzulinszerű növekedési faktor (IGF-1)",
+    "area": "Endokrinológia",
+    "price": 10000,
+    "result": 5
+  },
+  {
+    "elem": "Kalcitonin",
+    "area": "Endokrinológia",
+    "price": 5500,
+    "result": 5
+  },
+  {
+    "elem": "Kortizol (nyál)",
+    "area": "Endokrinológia",
+    "price": 12000,
+    "result": 5
+  },
+  {
+    "elem": "Kortizol (szérum)",
+    "area": "Endokrinológia",
+    "price": 3300,
+    "result": 2
+  },
+  {
+    "elem": "Leptin",
+    "area": "Endokrinológia",
+    "price": 11000,
+    "result": 15
+  },
+  {
+    "elem": "Luteinizáló hormon (LH)",
+    "area": "Endokrinológia",
+    "price": 3300,
+    "result": 2
+  },
+  {
+    "elem": "Makroprolaktin",
+    "area": "Endokrinológia",
+    "price": 6000,
+    "result": 5
+  },
+  {
+    "elem": "Melatonin",
+    "area": "Endokrinológia",
+    "price": 26000,
+    "result": 15
+  },
+  {
+    "elem": "Növekedési hormon (hGH)",
+    "area": "Endokrinológia",
+    "price": 5000,
+    "result": 5
+  },
+  {
+    "elem": "Oszteokalcin",
+    "area": "Endokrinológia",
+    "price": 5500,
+    "result": 5
+  },
+  {
+    "elem": "Ösztradiol (E2)",
+    "area": "Endokrinológia",
+    "price": 3300,
+    "result": 2
+  },
+  {
+    "elem": "Parathormon (PTH)",
+    "area": "Endokrinológia",
+    "price": 5500,
+    "result": 2
+  },
+  {
+    "elem": "Progeszteron",
+    "area": "Endokrinológia",
+    "price": 3300,
+    "result": 2
+  },
+  {
+    "elem": "Prolaktin",
+    "area": "Endokrinológia",
+    "price": 3300,
+    "result": 2
+  },
+  {
+    "elem": "Renin",
+    "area": "Endokrinológia",
+    "price": 11000,
+    "result": 5
+  },
+  {
+    "elem": "Reverz T3 (rT3)",
+    "area": "Endokrinológia",
+    "price": 8000,
+    "result": 15
+  },
+  {
+    "elem": "SHBG",
+    "area": "Endokrinológia",
+    "price": 3300,
+    "result": 2
+  },
+  {
+    "elem": "Total Tesztoszteron (Szabad és biológiailag aktív)",
+    "area": "Endokrinológia",
+    "price": 6800,
+    "result": 2
+  },
+  {
+    "elem": "Szabad T3 (fT3)",
+    "area": "Endokrinológia",
+    "price": 2800,
+    "result": 2
+  },
+  {
+    "elem": "Szabad T4 (fT4)",
+    "area": "Endokrinológia",
+    "price": 2800,
+    "result": 2
+  },
+  {
+    "elem": "Szerotonin",
+    "area": "Endokrinológia",
+    "price": 22000,
+    "result": 5
+  },
+  {
+    "elem": "Tireoglobulin",
+    "area": "Endokrinológia",
+    "price": 3800,
+    "result": 2
+  },
+  {
+    "elem": "Totál tesztoszteron",
+    "area": "Endokrinológia",
+    "price": 3300,
+    "result": 2
+  },
+  {
+    "elem": "TSH",
+    "area": "Tumormarkerek",
+    "price": 2200,
+    "result": 2
+  },
+  {
+    "elem": "Alfa-fötoprotein (AFP)",
+    "area": "Tumormarkerek",
+    "price": 2500,
+    "result": 2
+  },
+  {
+    "elem": "Béta-2-mikroglobulin",
+    "area": "Tumormarkerek",
+    "price": 5800,
+    "result": 5
+  },
+  {
+    "elem": "CA 125",
+    "area": "Tumormarkerek",
+    "price": 5200,
+    "result": 2
+  },
+  {
+    "elem": "CA 15-3",
+    "area": "Tumormarkerek",
+    "price": 5200,
+    "result": 2
+  },
+  {
+    "elem": "CA 19-9",
+    "area": "Tumormarkerek",
+    "price": 5200,
+    "result": 2
+  },
+  {
+    "elem": "CA 50",
+    "area": "Tumormarkerek",
+    "price": 12000,
+    "result": 5
+  },
+  {
+    "elem": "CA 72-4",
+    "area": "Tumormarkerek",
+    "price": 6000,
+    "result": 5
+  },
+  {
+    "elem": "CEA",
+    "area": "Tumormarkerek",
+    "price": 3800,
+    "result": 2
+  },
+  {
+    "elem": "Cyfra 21-1",
+    "area": "Tumormarkerek",
+    "price": 10000,
+    "result": 5
+  },
+  {
+    "elem": "HE4 + CA 125 ROMA score számítással",
+    "area": "Tumormarkerek",
+    "price": 13000,
+    "result": 3
+  },
+  {
+    "elem": "Humán Epididimisz protein 4 (HE4)",
+    "area": "Tumormarkerek",
+    "price": 6000,
+    "result": 3
+  },
+  {
+    "elem": "Kromogranin A",
+    "area": "Tumormarkerek",
+    "price": 17000,
+    "result": 5
+  },
+  {
+    "elem": "M2-PK (plazma)",
+    "area": "Tumormarkerek",
+    "price": 17000,
+    "result": 15
+  },
+  {
+    "elem": "Neuronspecifikus enoláz (NSE)",
+    "area": "Tumormarkerek",
+    "price": 8000,
+    "result": 5
+  },
+  {
+    "elem": "Prosztata specifikus antigén (PSA)",
+    "area": "Tumormarkerek",
+    "price": 3500,
+    "result": 2
+  },
+  {
+    "elem": "S100 protein",
+    "area": "Tumormarkerek",
+    "price": 10000,
+    "result": 10
+  },
+  {
+    "elem": "SCC",
+    "area": "Tumormarkerek",
+    "price": 10000,
+    "result": 5
+  },
+  {
+    "elem": "Szabad PSA (fPSA)",
+    "area": "Tumormarkerek",
+    "price": 4700,
+    "result": 2
+  },
+  {
+    "elem": "Szöveti polipeptid antigén (TPA)",
+    "area": "Fertőzés Szerológia",
+    "price": 10000,
+    "result": 5
+  },
+  {
+    "elem": "Anti-HBc IgM antitest",
+    "area": "Fertőzés Szerológia",
+    "price": 5000,
+    "result": 5
+  },
+  {
+    "elem": "Anti-HBs antitest",
+    "area": "Fertőzés Szerológia",
+    "price": 5000,
+    "result": 5
+  },
+  {
+    "elem": "Hepatitis A friss fertőzés (HAV-IgM)",
+    "area": "Fertőzés Szerológia",
+    "price": 4500,
+    "result": 2
+  },
+  {
+    "elem": "Hepatitis A vírus elleni antitestek (IgM+IgG)",
+    "area": "Fertőzés Szerológia",
+    "price": 6000,
+    "result": 5
+  },
+  {
+    "elem": "Hepatitis B vírus s. antigén (HBsAg)",
+    "area": "Fertőzés Szerológia",
+    "price": 4500,
+    "result": 5
+  },
+  {
+    "elem": "Hepatitis B vírus . antigén (HBeAg)",
+    "area": "Fertőzés Szerológia",
+    "price": 8500,
+    "result": 5
+  },
+  {
+    "elem": "Hepatitis C vírus elleni antitest (IgG)",
+    "area": "Fertőzés Szerológia",
+    "price": 6000,
+    "result": 5
+  },
+  {
+    "elem": "Borrelia antitestek (IgG, IgM) + Western blot",
+    "area": "Fertőzés Szerológia",
+    "price": 14000,
+    "result": 15
+  },
+  {
+    "elem": "Borrelia burgdorferi elleni antitestek (IgG, IgM)",
+    "area": "Fertőzés Szerológia",
+    "price": 7000,
+    "result": 8
+  },
+  {
+    "elem": "Chlamydia pneumoniae antitestek",
+    "area": "Fertőzés Szerológia",
+    "price": 12000,
+    "result": 6
+  },
+  {
+    "elem": "Chlamydia trachomatis antitestek",
+    "area": "Fertőzés Szerológia",
+    "price": 10000,
+    "result": 6
+  },
+  {
+    "elem": "Cytomegalovírus (CMV) elleni antitestek (IgG, IgM",
+    "area": "Fertőzés Szerológia",
+    "price": 10000,
+    "result": 5
+  },
+  {
+    "elem": "Epstein-Barr vírus (EBV) elleni antitestek (IgM, VCA IgG,EBNA IgG)",
+    "area": "Fertőzés Szerológia",
+    "price": 11000,
+    "result": 5
+  },
+  {
+    "elem": "Helicobacter pylori elleni antitest (IgG)",
+    "area": "Fertőzés Szerológia",
+    "price": 5000,
+    "result": 5
+  },
+  {
+    "elem": "Herpes simplex vírus (HSV) 1,2 elleni antitestek (IgG,IgM)*",
+    "area": "Fertőzés Szerológia",
+    "price": 12000,
+    "result": 6
+  },
+  {
+    "elem": "HIV-1,2 elleni antitestek, HIV 1 antigén",
+    "area": "Fertőzés Szerológia",
+    "price": 6500,
+    "result": 5
+  },
+  {
+    "elem": "Morbilli (kanyaró) elleni antitest (IgG)",
+    "area": "Fertőzés Szerológia",
+    "price": 8000,
+    "result": 15
+  },
+  {
+    "elem": "Parvovírus B19 elleni antitest (IgG)",
+    "area": "Fertőzés Szerológia",
+    "price": 8000,
+    "result": 5
+  },
+  {
+    "elem": "Parvovírus B19 elleni antitest (IgM)",
+    "area": "Fertőzés Szerológia",
+    "price": 11000,
+    "result": 5
+  },
+  {
+    "elem": "RPR, TPHA (szifilisz szerológia)",
+    "area": "Fertőzés Szerológia",
+    "price": 4000,
+    "result": 5
+  },
+  {
+    "elem": "Rubeola védettség",
+    "area": "Fertőzés Szerológia",
+    "price": 6000,
+    "result": 6
+  },
+  {
+    "elem": "Rubeola vírus elleni antitestek (IgG, IgM)",
+    "area": "Fertőzés Szerológia",
+    "price": 10000,
+    "result": 6
+  },
+  {
+    "elem": "SARS-CoV-2 IgG antitest",
+    "area": "Fertőzés Szerológia",
+    "price": 8000,
+    "result": 2
+  },
+  {
+    "elem": "SARS-CoV-2 Specifikus T-sejtes immunitás",
+    "area": "Fertőzés Szerológia",
+    "result": 6
+  },
+  {
+    "elem": "Toxocara elleni antitest",
+    "area": "Fertőzés Szerológia",
+    "price": 11000,
+    "result": 15
+  },
+  {
+    "elem": "Toxoplasma gondii elleni antitestek (IgG, IgM)",
+    "area": "Fertőzés Szerológia",
+    "price": 8000,
+    "result": 5
+  },
+  {
+    "elem": "Toxoplasma gondii IgG aviditás",
+    "area": "Fertőzés Szerológia",
+    "price": "???",
+    "result": 5
+  },
+  {
+    "elem": "Treponema pallidum ellenanyag megerősítése (im",
+    "area": "Fertőzés Szerológia",
+    "price": "???",
+    "result": 10
+  },
+  {
+    "elem": "Varicella-zoster vírus elleni antitest (IgG)",
+    "area": "Fertőzés Szerológia",
+    "price": 7000,
+    "result": 6
+  },
+  {
+    "elem": "Varicella-zoster vírus elleni antitest (IgG, IgM)",
+    "area": "Mikrobiológia",
+    "price": 10000,
+    "result": 6
+  },
+  {
+    "elem": "B csoportú Streptococcus szűrő és rezisztencia vizsgálat",
+    "area": "Mikrobiológia",
+    "price": 5000,
+    "result": "2-4"
+  },
+  {
+    "elem": "Baktérium tenyésztés és rezisztencia vizsgálat (aerob+anaerob)",
+    "area": "Mikrobiológia",
+    "price": 10000,
+    "result": "2-4"
+  },
+  {
+    "elem": "Baktérium tenyésztés és rezisztencia vizsgálat (aerob+anaerob) (aerob+gomba) lehet mindkettő",
+    "area": "Mikrobiológia",
+    "price": 6000,
+    "result": "2-4"
+  },
+  {
+    "elem": "MRSA szűrővizsgálat (orr, torok)",
+    "area": "Mikrobiológia",
+    "price": 5000,
+    "result": "2-4"
+  },
+  {
+    "elem": "Sarjadzó gomba tenyésztése bakteriológia nélkül",
+    "area": "Mikrobiológia",
+    "price": 7000,
+    "result": 1
+  },
+  {
+    "elem": "Széklet munkaalkalmassági vizsgálata",
+    "area": "Mikrobiológia",
+    "price": 8000,
+    "result": "2-4"
+  },
+  {
+    "elem": "Széklettenyésztés bakteriológiai tenyésztése (Salmonella, Shigella, Yersinia, Campylobacter, E. coli)",
+    "area": "Mikrobiológia",
+    "price": 8000,
+    "result": "2-4"
+  },
+  {
+    "elem": "Calicivírus\/Norovírus antigén kimutatása székletb",
+    "area": "Mikrobiológia",
+    "price": 12000,
+    "result": 1
+  },
+  {
+    "elem": "Clostridium difficile AG és toxin kimutatása székletből",
+    "area": "Mikrobiológia",
+    "price": 9000,
+    "result": 1
+  },
+  {
+    "elem": "Féregpete kimutatás mikroszkópos vizsgálattal",
+    "area": "Mikrobiológia",
+    "price": 9000,
+    "result": "2-4"
+  },
+  {
+    "elem": "Helicobacter pylori antigén kimutatása székletből",
+    "area": "Mikrobiológia",
+    "price": 5500,
+    "result": 1
+  },
+  {
+    "elem": "Kenet festése, értékelése (hüvely, húgycső)",
+    "area": "Mikrobiológia",
+    "price": 2500,
+    "result": 2
+  },
+  {
+    "elem": "Körömkaparék gomba vizsgálata: sarjadzó és fonalas gombák tenyésztése",
+    "area": "Mikrobiológia",
+    "price": 15000,
+    "result": 20
+  },
+  {
+    "elem": "Legionella antigén kimutatása vizeletmintából",
+    "area": "Mikrobiológia",
+    "price": 9000,
+    "result": 1
+  },
+  {
+    "elem": "Neisseria gonorrhoeae tenyésztés genitális váladékból rezisztenciával",
+    "area": "Mikrobiológia",
+    "price": 7000,
+    "result": "2-6"
+  },
+  {
+    "elem": "Protozoon kimutatása székletből (Giardia, Entamoeba, Cryptosporidium)",
+    "area": "Mikrobiológia",
+    "price": 10000,
+    "result": 1
+  },
+  {
+    "elem": "Rotavírus\/Adenovírus antigén kimutatása székletből",
+    "area": "Mikrobiológia",
+    "price": 7000,
+    "result": 1
+  },
+  {
+    "elem": "Streptococcus pneumoniae kimutatása vizeletből",
+    "area": "Molekuláris mikrobiológia",
+    "price": 7000,
+    "result": 1
+  },
+  {
+    "elem": "Aptima mRNS HPV szűrés",
+    "area": "Molekuláris mikrobiológia",
+    "price": 10000,
+    "result": 5
+  },
+  {
+    "elem": "Aptima mRNS HPV szűrés + szükség esetén genotipizálás",
+    "area": "Molekuláris mikrobiológia",
+    "price": 15000,
+    "result": 5
+  },
+  {
+    "elem": "Chlamydia trachomatis PCR",
+    "area": "Molekuláris mikrobiológia",
+    "price": 6000,
+    "result": 8
+  },
+  {
+    "elem": "Gardnerella vaginalis\/Atopobium vaginae PCR",
+    "area": "Molekuláris mikrobiológia",
+    "price": 12000,
+    "result": 6
+  },
+  {
+    "elem": "Herpes simplex (HSV) PCR",
+    "area": "Molekuláris mikrobiológia",
+    "price": 7000,
+    "result": 6
+  },
+  {
+    "elem": "HPV Quant-21 PCR (21 genotípus DNS alapú kimutatása kópiaszám meghatározással)",
+    "area": "Molekuláris mikrobiológia",
+    "price": 25000,
+    "result": 6
+  },
+  {
+    "elem": "Hüvelyi mikrobiom vizsgálat",
+    "area": "Molekuláris mikrobiológia",
+    "price": 72000,
+    "result": 26
+  },
+  {
+    "elem": "Mycoplasma genitalium PCR",
+    "area": "Molekuláris mikrobiológia",
+    "price": 6000,
+    "result": 6
+  },
+  {
+    "elem": "Mycoplasma hominis PCR",
+    "area": "Molekuláris mikrobiológia",
+    "price": 12000,
+    "result": 6
+  },
+  {
+    "elem": "Neisseria gonorrhoeae PCR",
+    "area": "Molekuláris mikrobiológia",
+    "price": 6000,
+    "result": 6
+  },
+  {
+    "elem": "SARS-CoV-2 PCR",
+    "area": "Molekuláris mikrobiológia",
+    "price": 17000,
+    "result": 2
+  },
+  {
+    "elem": "STD 2-es panel (Treponema pallidum, HSV 1\/2)",
+    "area": "Molekuláris mikrobiológia",
+    "price": 10000,
+    "result": 6
+  },
+  {
+    "elem": "STD 3-as panel (Trichomonas, Gardnerella, Atopobium vaginae)",
+    "area": "Molekuláris mikrobiológia",
+    "price": 12000,
+    "result": 6
+  },
+  {
+    "elem": "STD 4-es panel (Chlamydia trachomatis, Mycoplasma genitalium, Ureaplasma urealyticum, Neisseria gonorrhoeae)",
+    "area": "Molekuláris mikrobiológia",
+    "price": 16000,
+    "result": 6
+  },
+  {
+    "elem": "STD 5-ös panel (Chlamydia trachomatis, Mycoplas Molekuláris mikrobiológia",
+    "area": "Molekuláris mikrobiológia",
+    "price": 20000,
+    "result": 6
+  },
+  {
+    "elem": "STD genitális kórokozóinak PCR vizsgálata",
+    "area": "Molekuláris mikrobiológia",
+    "price": 35000,
+    "result": 6
+  },
+  {
+    "elem": "Treponema pallidum PCR",
+    "area": "Molekuláris mikrobiológia",
+    "price": 10000,
+    "result": 6
+  },
+  {
+    "elem": "Trichomonas vaginalis PCR",
+    "area": "Molekuláris mikrobiológia",
+    "price": 6000,
+    "result": 6
+  },
+  {
+    "elem": "Ureaplasma Complex PCR",
+    "area": "Magzati kockázatelemzés",
+    "price": 6000,
+    "result": 6
+  },
+  {
+    "elem": "12. heti szűrés kockázatelemzéssel (szabad béta-hCG, PAPP-A)",
+    "area": "Immunológia",
+    "price": 14000,
+    "result": 5
+  },
+  {
+    "elem": "Acetilkolin receptor elleni antitest",
+    "area": "Immunológia",
+    "price": 10000,
+    "result": 5
+  },
+  {
+    "elem": "ANA (antinukleáris antitest) ELISA",
+    "area": "Immunológia",
+    "price": 7000,
+    "result": 8
+  },
+  {
+    "elem": "ANA (antinukleáris antitest) Hep-2",
+    "area": "Immunológia",
+    "price": 7000,
+    "result": 8
+  },
+  {
+    "elem": "ANA (antinukleáris antitest) profil IgG",
+    "area": "Immunológia",
+    "price": 28000,
+    "result": "?"
+  },
+  {
+    "elem": "ANCA (MPO és PR-3)",
+    "area": "Immunológia",
+    "price": 12000,
+    "result": 8
+  },
+  {
+    "elem": "ANCA profil (MPO, PR-3, elasztáz, laktoferrin, BPI, katepszin G)",
+    "area": "Immunológia",
+    "price": 18000,
+    "result": 10
+  },
+  {
+    "elem": "Anémia pernicióza panel",
+    "area": "Immunológia",
+    "price": 22000,
+    "result": 15
+  },
+  {
+    "elem": "Annexin V IgG autoantitest",
+    "area": "Immunológia",
+    "price": 6500,
+    "result": 8
+  },
+  {
+    "elem": "Annexin V IgM autoantitest",
+    "area": "Immunológia",
+    "price": 6500,
+    "result": 8
+  },
+  {
+    "elem": "Anti C 1 q antitest",
+    "area": "Immunológia",
+    "price": 8000,
+    "result": 8
+  },
+  {
+    "elem": "Anti-CCP (anti-filaggrin)",
+    "area": "Immunológia",
+    "price": 5500,
+    "result": 6
+  },
+  {
+    "elem": "Anti-foszfolipid antitestek (kardiolipin és B2-GPI IgG, IgM)",
+    "area": "Immunológia",
+    "price": 1500,
+    "result": 8
+  },
+  {
+    "elem": "Anti-MuSK antitest",
+    "area": "Immunológia",
+    "price": 10000,
+    "result": 5
+  },
+  {
+    "elem": "Anti-streptolizin O (ASO)",
+    "area": "Immunológia",
+    "price": 1800,
+    "result": 1
+  },
+  {
+    "elem": "Aquaporin-4 elleni antitest",
+    "area": "Immunológia",
+    "price": 12000,
+    "result": 5
+  },
+  {
+    "elem": "ASCA IgA",
+    "area": "Immunológia",
+    "price": 5500,
+    "result": 8
+  },
+  {
+    "elem": "ASCA IgG",
+    "area": "Immunológia",
+    "price": 5500,
+    "result": 8
+  },
+  {
+    "elem": "Autoimmun bőrbetegségek autoantitestjei",
+    "area": "Immunológia",
+    "price": 7000,
+    "result": 6
+  },
+  {
+    "elem": "Autoimmun májbetegség autoantitestjei",
+    "area": "Immunológia",
+    "price": 15000,
+    "result": 5
+  },
+  {
+    "elem": "C1-észteráz inhibitor aktivitás",
+    "area": "Immunológia",
+    "price": 10000,
+    "result": 5
+  },
+  {
+    "elem": "C1-észteráz inhibitor koncentráció",
+    "area": "Immunológia",
+    "price": 7000,
+    "result": 5
+  },
+  {
+    "elem": "C3 komplement faktor",
+    "area": "Immunológia",
+    "price": 2200,
+    "result": 4
+  },
+  {
+    "elem": "C4 komplement faktor",
+    "area": "Immunológia",
+    "price": 2200,
+    "result": 4
+  },
+  {
+    "elem": "Celluláris immun státusz",
+    "area": "Immunológia",
+    "price": 34000,
+    "result": 8
+  },
+  {
+    "elem": "Celluláris immun státusz és NK funkció",
+    "area": "Immunológia",
+    "price": 60000,
+    "result": 8
+  },
+  {
+    "elem": "Cöliákia szűrés (tTg IgA, tTg IgG)",
+    "area": "Immunológia",
+    "price": 7500,
+    "result": 8
+  },
+  {
+    "elem": "dsDNS elleni antitest",
+    "area": "Immunológia",
+    "price": 3900,
+    "result": 8
+  },
+  {
+    "elem": "ENA panel (ELISA)",
+    "area": "Immunológia",
+    "price": 13000,
+    "result": 6
+  },
+  {
+    "elem": "Endomízium elleni antitestek (EMA) IgA\/IgG",
+    "area": "Immunológia",
+    "price": 6400,
+    "result": 6
+  },
+  {
+    "elem": "Endotél elleni antitest",
+    "area": "Immunológia",
+    "price": 7000,
+    "result": 5
+  },
+  {
+    "elem": "Epidermális bazálmembrán elleni antitest",
+    "area": "Immunológia",
+    "price": 12000,
+    "result": 5
+  },
+  {
+    "elem": "Foszfatidilinozitol elleni antitest (IgG)",
+    "area": "Immunológia",
+    "price": 19600,
+    "result": 15
+  },
+  {
+    "elem": "Foszfatidilinozitol elleni antitest (IgM)",
+    "area": "Immunológia",
+    "price": 19600,
+    "result": 15
+  },
+  {
+    "elem": "Foszfatidilszerin IgG autoantitest",
+    "area": "Immunológia",
+    "price": 6400,
+    "result": 8
+  },
+  {
+    "elem": "Foszfatidilszerin IgM autoantitest",
+    "area": "Immunológia",
+    "price": 6400,
+    "result": 8
+  },
+  {
+    "elem": "Glutamát-dekarboxiláz (GAD) elleni antitest",
+    "area": "Immunológia",
+    "price": 10000,
+    "result": 5
+  },
+  {
+    "elem": "Harántcsíkolt izom elleni antitest",
+    "area": "Immunológia",
+    "price": 7000,
+    "result": 5
+  },
+  {
+    "elem": "Hiszton elleni antitest",
+    "area": "Immunológia",
+    "price": 7000,
+    "result": 5
+  },
+  {
+    "elem": "IA-2 antitest (tirozinfoszfatáz elleni antitest)",
+    "area": "Immunológia",
+    "price": 10000,
+    "result": 5
+  },
+  {
+    "elem": "IgA",
+    "area": "Immunológia",
+    "price": 2000,
+    "result": 3
+  },
+  {
+    "elem": "IgG",
+    "area": "Immunológia",
+    "price": 2000,
+    "result": 3
+  },
+  {
+    "elem": "IgG alosztályok (IgG1, IgG2, IgG3, IgG4)",
+    "area": "Immunológia",
+    "price": 22000,
+    "result": 5
+  },
+  {
+    "elem": "IgM",
+    "area": "Immunológia",
+    "price": 2000,
+    "result": 3
+  },
+  {
+    "elem": "Immunfixáció (paraprotein kimutatás)",
+    "area": "Immunológia",
+    "price": 15000,
+    "result": 16
+  },
+  {
+    "elem": "Intrinzik faktor elleni antitest",
+    "area": "Immunológia",
+    "price": 10000,
+    "result": 5
+  },
+  {
+    "elem": "Inzulin elleni antitest",
+    "area": "Immunológia",
+    "price": 9200,
+    "result": 8
+  },
+  {
+    "elem": "Mellékvesekéreg elleni antitest",
+    "area": "Immunológia",
+    "price": 8000,
+    "result": 5
+  },
+  {
+    "elem": "NK lymphocyta funkció",
+    "area": "Immunológia",
+    "price": 35000,
+    "result": 6
+  },
+  {
+    "elem": "Onkoneuronális antitestek",
+    "area": "Immunológia",
+    "price": 22000,
+    "result": 18
+  },
+  {
+    "elem": "Pankreász szigetsejt elleni antitest (ICA)",
+    "area": "Immunológia",
+    "price": 7000,
+    "result": 5
+  },
+  {
+    "elem": "Petefészek szteroidtermelő sejtjei elleni antitest",
+    "area": "Immunológia",
+    "price": 8000,
+    "result": 5
+  },
+  {
+    "elem": "Protrombin elleni antitest",
+    "area": "Immunológia",
+    "price": 6400,
+    "result": 8
+  },
+  {
+    "elem": "Reuma faktor (RF)",
+    "area": "Immunológia",
+    "price": 2400,
+    "result": 1
+  },
+  {
+    "elem": "Spermium elleni antitest",
+    "area": "Immunológia",
+    "price": 10000,
+    "result": 7
+  },
+  {
+    "elem": "Szérum elektroforézis (ELFO)",
+    "area": "Immunológia",
+    "price": 4200,
+    "result": 6
+  },
+  {
+    "elem": "Szövet specifikus autoantitestek (mitokondrium, simaizom, parietális sejt, LKM és retikulin elleni antitestek",
+    "area": "Immunológia",
+    "price": 10000,
+    "result": 6
+  },
+  {
+    "elem": "TH1-TH2 citokin dominancia",
+    "area": "Immunológia",
+    "price": 40000,
+    "result": 6
+  },
+  {
+    "elem": "TNF-alfa",
+    "area": "Immunológia",
+    "price": 10000,
+    "result": 7
+  },
+  {
+    "elem": "Triptáz",
+    "area": "Immunológia",
+    "price": 11000,
+    "result": 15
+  },
+  {
+    "elem": "TSH receptor elleni antitest (TRAK)",
+    "area": "Vitaminok, nyomelemek",
+    "price": 6400,
+    "result": 5
+  },
+  {
+    "elem": "1,25-dihidroxi-D3 vitamin",
+    "area": "Vitaminok, nyomelemek",
+    "price": 16000,
+    "result": 5
+  },
+  {
+    "elem": "A vitamin",
+    "area": "Vitaminok, nyomelemek",
+    "price": 11000,
+    "result": 5
+  },
+  {
+    "elem": "B1 vitamin",
+    "area": "Vitaminok, nyomelemek",
+    "price": 13000,
+    "result": 5
+  },
+  {
+    "elem": "B12 vitamin",
+    "area": "Vitaminok, nyomelemek",
+    "price": 3700,
+    "result": 2
+  },
+  {
+    "elem": "B2 vitamin",
+    "area": "Vitaminok, nyomelemek",
+    "price": 13000,
+    "result": 5
+  },
+  {
+    "elem": "B3 vitamin",
+    "area": "Vitaminok, nyomelemek",
+    "price": 20000,
+    "result": 5
+  },
+  {
+    "elem": "B5 vitamin",
+    "area": "Vitaminok, nyomelemek",
+    "price": 22000,
+    "result": 7
+  },
+  {
+    "elem": "B6 vitamin",
+    "area": "Vitaminok, nyomelemek",
+    "price": 13000,
+    "result": 5
+  },
+  {
+    "elem": "Cink (Zn)",
+    "area": "Vitaminok, nyomelemek",
+    "price": 4200,
+    "result": 5
+  },
+  {
+    "elem": "C-vitamin",
+    "area": "Vitaminok, nyomelemek",
+    "price": 22000,
+    "result": 5
+  },
+  {
+    "elem": "D-vitamin (25OH)",
+    "area": "Vitaminok, nyomelemek",
+    "price": 4900,
+    "result": 2
+  },
+  {
+    "elem": "E vitamin",
+    "area": "Vitaminok, nyomelemek",
+    "price": 11000,
+    "result": 5
+  },
+  {
+    "elem": "Folsav",
+    "area": "Vitaminok, nyomelemek",
+    "price": 3700,
+    "result": 2
+  },
+  {
+    "elem": "H vitamin",
+    "area": "Vitaminok, nyomelemek",
+    "price": 11000,
+    "result": 7
+  },
+  {
+    "elem": "Jód",
+    "area": "Vitaminok, nyomelemek",
+    "price": 20000,
+    "result": 5
+  },
+  {
+    "elem": "K vitamin",
+    "area": "Vitaminok, nyomelemek",
+    "price": 13000,
+    "result": 15
+  },
+  {
+    "elem": "Koenzim Q10",
+    "area": "Vitaminok, nyomelemek",
+    "price": 13000,
+    "result": 5
+  },
+  {
+    "elem": "Ólom",
+    "area": "Vitaminok, nyomelemek",
+    "price": 9000,
+    "result": 5
+  },
+  {
+    "elem": "Réz (Cu) szérumból",
+    "area": "Vitaminok, nyomelemek",
+    "price": 4200,
+    "result": 15
+  },
+  {
+    "elem": "Szelén",
+    "area": "Vitaminok, nyomelemek",
+    "price": 9000,
+    "result": 5
+  },
+  {
+    "elem": "Bélrendszeri mikrobiom vizsgálat",
+    "area": "Székletvizsgálatok",
+    "price": 60000,
+    "result": 26
+  },
+  {
+    "elem": "Epesav (széklet)",
+    "area": "Székletvizsgálatok",
+    "price": 10000,
+    "result": 15
+  },
+  {
+    "elem": "Kalprotektin",
+    "area": "Székletvizsgálatok",
+    "price": 10000,
+    "result": 5
+  },
+  {
+    "elem": "M2-PK",
+    "area": "Székletvizsgálatok",
+    "price": 17000,
+    "result": 15
+  },
+  {
+    "elem": "Pankreász specifikus elasztáz (széklet)",
+    "area": "Székletvizsgálatok",
+    "price": 17000,
+    "result": 5
+  },
+  {
+    "elem": "Széklet vér 1",
+    "area": "Székletvizsgálatok",
+    "price": 2800,
+    "result": 2
+  },
+  {
+    "elem": "Zonulin (széklet)",
+    "area": "Székletvizsgálatok",
+    "price": 17000,
+    "result": 15
+  },
+  {
+    "elem": "Totál IgE",
+    "area": "Allergia",
+    "price": 4000,
+    "result": 6
+  },
+  {
+    "elem": "Allergiapanel, rovarok - 4 allergén",
+    "area": "Allergia",
+    "price": 9000,
+    "result": 5
+  },
+  {
+    "elem": "Inhalatív allergiapanel, állatok - 9 allergén",
+    "area": "Allergia",
+    "price": 9000,
+    "result": 5
+  },
+  {
+    "elem": "Inhalatív allergiapanel, penész és por - 9 allergén",
+    "area": "Allergia",
+    "price": 9000,
+    "result": 5
+  },
+  {
+    "elem": "Inhalatív allergiapanel, pollenek - 19 allergén",
+    "area": "Allergia",
+    "price": 17000,
+    "result": 5
+  },
+  {
+    "elem": "Nutritív allergiapanel - 26 allergén",
+    "area": "Allergia",
+    "price": 19000,
+    "result": 5
+  },
+  {
+    "elem": "Nutritív allergiapanel, húsok - 9 allergén",
+    "area": "Allergia",
+    "price": 9000,
+    "result": 5
+  },
+  {
+    "elem": "Inhalatív allergiapanel - teljes",
+    "area": "Allergia",
+    "price": 32000,
+    "result": 5
+  },
+  {
+    "elem": "Nutritív allergiapanel - teljes",
+    "area": "Allergia",
+    "price": 25000,
+    "result": 5
+  },
+  {
+    "elem": "Vegyes allergiapanel-20 allergén",
+    "area": "Allergia",
+    "price": 22000,
+    "result": 5
+  },
+  {
+    "elem": "Teljes panel - 295 allergén (Multiplex)",
+    "area": "Allergia",
+    "price": 86900,
+    "result": 11
+  },
+  {
+    "elem": "Teljes nutritív panel - 287 allergén (Fox multiplex étel intolerancia)",
+    "area": "Allergia",
+    "price": 86900,
+    "result": "?"
+  },
+  {
+    "elem": "Alma (rMal d1, rMal d3)",
+    "area": "Allergia",
+    "price": 11000,
+    "result": 5
+  },
+  {
+    "elem": "Búza (rTri a14, Omega-5-gliadin, Alfa-, béta-, gamma-,omega- gliadin)",
+    "area": "Allergia",
+    "price": 17000,
+    "result": 5
+  },
+  {
+    "elem": "Dió (rJug r1, rJug r3)",
+    "area": "Allergia",
+    "price": 11000,
+    "result": 5
+  },
+  {
+    "elem": "Földimogyoró (rAra h1, rAra h2, rAra h3, rAra h8, rAra h9, rBet v1, nMux f3)",
+    "area": "Allergia",
+    "price": 40000,
+    "result": 5
+  },
+  {
+    "elem": "Mogyoró (rCor a14, rCor a1, rCor a8, rCor a9)",
+    "area": "Allergia",
+    "price": 22000,
+    "result": 5
+  },
+  {
+    "elem": "Őszibarack (rPru p1, rPru p3, rPru p4)",
+    "area": "Allergia",
+    "price": 17000,
+    "result": 5
+  },
+  {
+    "elem": "Szójabab (rGly m4, nGly m5, nGly m6)",
+    "area": "Allergia",
+    "price": 17000,
+    "result": 5
+  },
+  {
+    "elem": "Tehéntej (Alfa-laktalbumin, Béta-laktoglobulin, Kazein)",
+    "area": "Allergia",
+    "price": 17000,
+    "result": 5
+  },
+  {
+    "elem": "Tojásfehérje (Ovomucoid, Ovalbumin, Conalbumi)",
+    "area": "Allergia",
+    "price": 17000,
+    "result": 5
+  },
+  {
+    "elem": "Nyírfa (PR-10-Protein, Profilin és polcalcin, rBet v6)",
+    "area": "Allergia",
+    "price": 22000,
+    "result": 5
+  },
+  {
+    "elem": "Parlagfű (Pektát-liáz)",
+    "area": "Allergia",
+    "price": 5800,
+    "result": 5
+  },
+  {
+    "elem": "Bromelain - CCD marker nMUX F3",
+    "area": "Allergia",
+    "price": 5800,
+    "result": 5
+  },
+  {
+    "elem": "LTT fémekre (Kizárólag kijelölt budapesti vérvételi pontokon!)",
+    "area": "Allergia",
+    "price": 77000,
+    "result": 11
+  },
+  {
+    "elem": "LTT titánötvözetekre (Kizárólag kijelölt budapesti vérvételi pontokon!)",
+    "area": "Allergia",
+    "price": 48000,
+    "result": 11
+  },
+  {
+    "elem": "Speciális allergia LTT teszt fogászati fémekre, kerámiára és cementre ( Bp!)",
+    "area": "Intolerancia",
+    "price": 79000,
+    "result": 11
+  },
+  {
+    "elem": "Hisztamin intolerancia (DAO)",
+    "area": "Intolerancia",
+    "price": 13000,
+    "result": 7
+  },
+  {
+    "elem": "Fox-Táplálékintolerancia (IgG) panel (108 tápanyag)",
+    "area": "Intolerancia",
+    "price": 59000,
+    "result": 6
+  },
+  {
+    "elem": "Táplálékintolerancia (IgG) panel (220) - Ingyenes dietetikai tanácsadássa Bpl",
+    "area": "Intolerancia",
+    "price": 84900,
+    "result": 11
+  },
+  {
+    "elem": "Táplálékintolerancia (IgG) panel (46 tápanyag)",
+    "area": "Intolerancia",
+    "price": 34000,
+    "result": 5
+  },
+  {
+    "elem": "Fox multiplex ételintolernacia vizsgálat Teljes panel - 287 étel",
+    "area": "Intolerancia",
+    "price": 89900,
+    "result": 11
+  },
+  {
+    "elem": "Teljes vizelet (általános és üledék)",
+    "area": "Vizeletvizsgálatok",
+    "price": 1300,
+    "result": 1
+  },
+  {
+    "elem": "Vesekő analízis",
+    "area": "Vizeletvizsgálatok",
+    "price": 12000,
+    "result": "?"
+  },
+  {
+    "elem": "Vizelet amiláz",
+    "area": "Vizeletvizsgálatok",
+    "price": 500,
+    "result": 1
+  },
+  {
+    "elem": "Vizelet fehérje",
+    "area": "Vizeletvizsgálatok",
+    "price": 210,
+    "result": 2
+  },
+  {
+    "elem": "Vizelet fehérje (gyűjtött vizeletből)",
+    "area": "Vizeletvizsgálatok",
+    "price": 210,
+    "result": 2
+  },
+  {
+    "elem": "Vizelet foszfát",
+    "area": "Vizeletvizsgálatok",
+    "price": 210,
+    "result": 1
+  },
+  {
+    "elem": "Vizelet foszfát (gyűjtött vizeletből)",
+    "area": "Vizeletvizsgálatok",
+    "price": 210,
+    "result": 1
+  },
+  {
+    "elem": "Vizelet glükóz",
+    "area": "Vizeletvizsgálatok",
+    "price": 210,
+    "result": 1
+  },
+  {
+    "elem": "Vizelet glükóz (gyűjtött vizeletből)",
+    "area": "Vizeletvizsgálatok",
+    "price": 210,
+    "result": 1
+  },
+  {
+    "elem": "Vizelet húgysav",
+    "area": "Vizeletvizsgálatok",
+    "price": 210,
+    "result": 1
+  },
+  {
+    "elem": "Vizelet húgysav (gyűjtött vizeletből)",
+    "area": "Vizeletvizsgálatok",
+    "price": 210,
+    "result": 1
+  },
+  {
+    "elem": "Vizelet kalcium",
+    "area": "Vizeletvizsgálatok",
+    "price": 210,
+    "result": 1
+  },
+  {
+    "elem": "Vizelet kalcium (gyűjtött vizeletből)",
+    "area": "Vizeletvizsgálatok",
+    "price": 210,
+    "result": 1
+  },
+  {
+    "elem": "Vizelet kálium",
+    "area": "Vizeletvizsgálatok",
+    "price": 210,
+    "result": 1
+  },
+  {
+    "elem": "Vizelet kálium (gyűjtött vizeletből)",
+    "area": "Vizeletvizsgálatok",
+    "price": 210,
+    "result": 1
+  },
+  {
+    "elem": "Vizelet karbamid",
+    "area": "Vizeletvizsgálatok",
+    "price": 210,
+    "result": 1
+  },
+  {
+    "elem": "Vizelet karbamid (gyűjtött vizeletből)",
+    "area": "Vizeletvizsgálatok",
+    "price": 210,
+    "result": 1
+  },
+  {
+    "elem": "Vizelet klorid",
+    "area": "Vizeletvizsgálatok",
+    "price": 210,
+    "result": 1
+  },
+  {
+    "elem": "Vizelet klorid (gyűjtött vizeletből)",
+    "area": "Vizeletvizsgálatok",
+    "price": 210,
+    "result": 1
+  },
+  {
+    "elem": "Vizelet kreatinin",
+    "area": "Vizeletvizsgálatok",
+    "price": 300,
+    "result": 1
+  },
+  {
+    "elem": "Vizelet kreatinin (gyűjtött vizeletből)",
+    "area": "Vizeletvizsgálatok",
+    "price": 300,
+    "result": 1
+  },
+  {
+    "elem": "Vizelet magnézium (gyűjtött vizeletből)",
+    "area": "Vizeletvizsgálatok",
+    "price": 200,
+    "result": 1
+  },
+  {
+    "elem": "Vizelet mikroalbumin",
+    "area": "Vizeletvizsgálatok",
+    "price": 1200,
+    "result": 2
+  },
+  {
+    "elem": "Vizelet mikroalbumin (gyűjtött vizeletből)",
+    "area": "Vizeletvizsgálatok",
+    "price": 1200,
+    "result": 2
+  },
+  {
+    "elem": "Vizelet nátrium",
+    "area": "Vizeletvizsgálatok",
+    "price": 210,
+    "result": 1
+  },
+  {
+    "elem": "Vizelet nátrium (gyűjtött vizeletből)",
+    "area": "Vizeletvizsgálatok",
+    "price": 210,
+    "result": 1
+  },
+  {
+    "elem": "BRCA Complete - öröklődő emlő- és petefészekrák",
+    "area": "Molekuláris genetika",
+    "price": 270000,
+    "result": 31
+  },
+  {
+    "elem": "BRCA Focus - öröklődő emlő- és petefészekrák geneteika",
+    "area": "Molekuláris genetika",
+    "price": 135000,
+    "result": 31
+  },
+  {
+    "elem": "CFTR gén 36 leggyakoribb (hot-spot) mutációja",
+    "area": "Molekuláris genetika",
+    "price": 100000,
+    "result": 16
+  },
+  {
+    "elem": "Cöliakia genetika HLA-DQ2, HLA-DQ8",
+    "area": "Molekuláris genetika",
+    "price": 36000,
+    "result": 13
+  },
+  {
+    "elem": "HLA B27",
+    "area": "Molekuláris genetika",
+    "price": 30000,
+    "result": "13"
+  },
+  {
+    "elem": "Faktor V (FV) \/ Leiden mutáció",
+    "area": "Molekuláris genetika",
+    "price": 14000,
+    "result": 11
+  },
+  {
+    "elem": "Laktóz-intolerancia (LCT 13910 C\/T)",
+    "area": "Molekuláris genetika",
+    "price": 14000,
+    "result": 11
+  },
+  {
+    "elem": "MTHFR A1298C mutáció",
+    "area": "Molekuláris genetika",
+    "price": 14000,
+    "result": 11
+  },
+  {
+    "elem": "MTHFR C677T mutáció",
+    "area": "Molekuláris genetika",
+    "price": 14000,
+    "result": 11
+  },
+  {
+    "elem": "Protrombin gén (FII) G20210 mutáció",
+    "area": "Molekuláris genetika",
+    "price": 14000,
+    "result": 11
+  },
+  {
+    "elem": "Trombózis mutáció panel  3-as panel",
+    "area": "Molekuláris genetika",
+    "price": 30000,
+    "result": 11
+  },
+  {
+    "elem": "Trombózis mutáció panel 4-es panel",
+    "area": "Molekuláris genetika",
+    "price": 40000,
+    "result": 11
+  },
+  {
+    "elem": "Wilson-kór - H1069Q mutáció",
+    "area": "Molekuláris genetika",
+    "price": 36000,
+    "result": 11
+  },
+  {
+    "elem": "Y-kromoszóma mikrodeléció",
+    "area": "Molekuláris genetika",
+    "price": 90000,
+    "result": 16
+  },
+  {
+    "elem": "Vércsoport és ellenanyagszűrés",
+    "area": "Vércsoport szerológia",
+    "price": 14000,
+    "result": 2
+  }
+]

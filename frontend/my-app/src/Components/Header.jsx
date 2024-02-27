@@ -2,6 +2,8 @@ import React, {useEffect, useState} from 'react';
 import UserContext from "../Pages/UserContext.jsx";
 import LinkButton from "./LinkButton.jsx";
 import {Link, useLocation, useNavigate} from "react-router-dom";
+import HamburgerMenu from "./HamburgerMenu.jsx";
+
 
 const Header = ({ isAdmin, appointment, id }) => {
     const navigate = useNavigate();
@@ -34,6 +36,7 @@ const Header = ({ isAdmin, appointment, id }) => {
                     <img src="/imf_logo.png" alt="IMF logo" className="ImfLogo"/>
                 </Link>
                 {user ? `Welcome ${user.name}` : "IMF REDLABS LAB SERVICES"}
+                <HamburgerMenu/>
 
             </div>
             <div className="buttonContainer">
@@ -46,7 +49,10 @@ const Header = ({ isAdmin, appointment, id }) => {
                     </>
                 ) : (
                     <>
+                        {currentPath !== "/login" && (
                         <LinkButton to="/login" text="Login" onClick={handleMainClick}/>
+
+                        )}
 
                         {currentPath !== "/register" && (
                             <LinkButton to="/register" text="Register" onClick={handleMainClick}/>

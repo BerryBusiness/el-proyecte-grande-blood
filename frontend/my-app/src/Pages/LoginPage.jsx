@@ -44,12 +44,16 @@ const LoginPage = () => {
 
     return (
         <>
-            <Header/>
-            <LoginForm
-                onCancel={() => navigate("/")}
-                disabled={loading}
-                onSave={handleLoginUser}
-            />
+            <div className="outerContainer">
+                <div className="headerContainer">
+                    <Header/>
+                    <LoginForm
+                        onCancel={() => navigate("/")}
+                        disabled={loading}
+                        onSave={handleLoginUser}
+                    />
+                </div>
+            </div>
         </>
     );
 };

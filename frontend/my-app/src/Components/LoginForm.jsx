@@ -1,4 +1,6 @@
-import {useState} from "react";
+import React, {useState} from "react";
+import Button from "./Button.jsx";
+import Header from "./Header.jsx";
 
 
 const LoginForm = ({onSave, disabled, onCancel}) => {
@@ -20,43 +22,24 @@ const LoginForm = ({onSave, disabled, onCancel}) => {
     };
 
     return (
-        <div className="outerContainer">
-            <form className="LoginForm" onSubmit={onSubmit}>
-                <div className="formBox">
-                    <div className="control">
-                        <label htmlFor="email">Email: </label>
-                        <input
-                            className="field"
-                            value={email}
-                            onChange={(e) => setEmail(e.target.value)}
-                            name="email"
-                            id="email"
-                        />
-                    </div>
-                    <div className="control">
-                        <label htmlFor="password">Password: </label>
-                        <input
-                            className="field"
-                            value={password}
-                            onChange={(e) => setPassword(e.target.value)}
-                            name="password"
-                            id="password"
-                            type="password"
-                        />
-                    </div>
-                </div>
-                <div className="buttonContainer">
-                    <button className='loginButton' type="submit" disabled={disabled}>
-                        Login
-                    </button>
+        <>
 
-                    <button className='backButton' type="button" onClick={onCancel}>
-                        Back
-                    </button>
+            <form>
+                <div class="mb-3">
+                    <label for="userEmail">Email address</label>
+                    <input type="email" class="form-control" id="userEmail" placeholder="Enter email"/>
+
                 </div>
+                <div className="mb-3">
+                    <label form="userPassword">Password</label>
+                    <input type="password" className="form-control" id="userPassword" aria-describedby="pwHelp"
+                           placeholder="name@example.com"/>
+                    <small id="pwHelp" className="form-text text-muted">Must be 8-20 characters long.</small>
+                </div>
+                <Button text='Sign in' onClick={onSave}></Button>
             </form>
-        </div>
-    );
+        </>
+    )
 };
 
 export default LoginForm;

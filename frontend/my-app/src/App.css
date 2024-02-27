@@ -42,6 +42,54 @@
   text-align: center;
   margin: 0 10px;
 }
+.bm-burger-bars {
+  background: #D3D3D3;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  max-height: 0;
+  opacity: 1;
+
+}
+.bm-menu {
+  background: white;
+  padding: 1.5em 1.5em 0;
+  font-size: 1.15em;
+}
+.bm-item-list {
+  color: black;
+  padding: 0.8em;
+}
+
+.bm-overlay {
+  background: yellow;
+}
+.hamburger {
+  width: 2rem;
+  height: 0.25rem;
+  border-radius: 5px;
+  background-color: red;
+  /*transform-origin: 1px;
+  transition: all 0.3s linear;*/
+}
+.menu-item {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: column nowrap;
+  z-index: 10;
+}
+.bm-burger-bars-hover {
+  background: white;
+  opacity: 0;
+}
+.bm-burger-button {
+  color: orange;
+  width: 40px;
+  height: 40px;
+  opacity: 1;
+}
 .field{
   border-radius: 5px;
 
