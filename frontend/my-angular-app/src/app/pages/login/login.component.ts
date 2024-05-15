@@ -1,19 +1,24 @@
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, ReactiveFormsModule } from '@angular/forms';
 import { AuthService } from '../../services/auth.service';
-import { NgIf } from '@angular/common';
+import { CommonModule } from '@angular/common';
+import { Router, RouterModule } from '@angular/router';
+import { catchError, tap } from 'rxjs/operators';
+import { of } from 'rxjs';
 
 @Component({
   selector: 'app-login',
   standalone: true,
-  imports: [ReactiveFormsModule, NgIf],
+  imports: [ReactiveFormsModule, CommonModule, RouterModule],
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent {
   loginForm: FormGroup;
 
-  constructor(private fb: FormBuilder, private authService: AuthService) {
+  constructor(private fb: FormBuilder,
+              private authService: AuthService,
+              private router: Router) {
     this.loginForm = this.fb.group({
       email: [''],
       password: ['']
@@ -22,13 +27,15 @@ export class LoginComponent {
 
   onLogin() {
     const credentials = this.loginForm.value;
-    this.authService.login(credentials).subscribe(
-      (response) => {
+    this.authService.login(credentials).pipe(
+      tap(response => {
         console.log('Login successful', response);
-      },
-      (error) => {
+        this.router.navigate(['/']);
+      }),
+      catchError(error => {
         console.error('Login failed', error);
-      }
-    );
+        return of(null);
+      })
+    ).subscribe();
   }
 }
