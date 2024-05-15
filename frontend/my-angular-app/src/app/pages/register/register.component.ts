@@ -5,11 +5,20 @@ import { Router, RouterModule } from '@angular/router';
 import { NgIf } from '@angular/common';
 import {catchError, tap} from "rxjs/operators";
 import {of} from "rxjs";
+import { MatButtonModule } from '@angular/material/button';
+import { MatInputModule } from '@angular/material/input';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatCardModule } from '@angular/material/card';
+import { MatToolbarModule } from '@angular/material/toolbar';
 
 @Component({
   selector: 'app-register',
   standalone: true,
-  imports: [ReactiveFormsModule, NgIf, RouterModule],
+  imports: [ReactiveFormsModule, NgIf, RouterModule, MatButtonModule,
+    MatInputModule,
+    MatFormFieldModule,
+    MatCardModule,
+    MatToolbarModule],
   templateUrl: './register.component.html',
   styleUrls: ['./register.component.css']
 })
