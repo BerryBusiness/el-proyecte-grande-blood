@@ -1,0 +1,16 @@
+<mat-toolbar color="primary">
+  <a routerLink="/" style="display: flex; align-items: center;">
+  <img ngSrc="../../../assets/imf_logo.png" alt="Logo" style="height: 40px; margin-right: 10px;" height="40"
+       width="40">
+  </a>
+  <span>IMF Blood Labs</span>
+  <span class="spacer"></span>
+  <ng-container *ngIf="(isLoggedIn$ | async); else loggedOut">
+    <span>Welcome {{ userName$ | async }}</span>
+    <button mat-button (click)="logout()">Logout</button>
+  </ng-container>
+  <ng-template #loggedOut>
+    <button mat-button routerLink="/login">Login</button>
+    <button mat-button routerLink="/register">Register</button>
+  </ng-template>
+</mat-toolbar>
