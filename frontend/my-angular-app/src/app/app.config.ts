@@ -5,6 +5,7 @@ import { MainPageComponent } from './pages/main-page/main-page.component';
 import { LoginComponent } from './pages/login/login.component';
 import { RegisterComponent } from './pages/register/register.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
+import {CalendarComponent} from "./pages/calendar/calendar.component";
 
 export const appConfig: ApplicationConfig = {
   providers: [
@@ -14,7 +15,8 @@ export const appConfig: ApplicationConfig = {
       [
         { path: '', component: MainPageComponent },
         { path: 'login', component: LoginComponent },
-        { path: 'register', component: RegisterComponent }
+        { path: 'register', component: RegisterComponent },
+        { path: 'calendar', component: CalendarComponent },
       ],
       withComponentInputBinding()
     ), provideAnimationsAsync()
