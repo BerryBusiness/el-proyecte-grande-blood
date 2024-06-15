@@ -15,28 +15,20 @@ public class UserCreator {
 
     @PostConstruct
     public void initialize() {
-        User ethan = User.builder()
-                .name("Ethan")
-                .password(passwordEncoder.encode("1234"))
-                .email("ethan@citromail.com")
-                .role(Role.USER)
-                .build();
-        userRepository.save(ethan);
+        createUserIfNotFound("ethan@citromail.com", "Ethan", "1234", Role.USER);
+        createUserIfNotFound("luther@freemail.com", "Luther", "1234", Role.USER);
+        createUserIfNotFound("benji@hotmail.com", "Benji", "1234", Role.USER);
+    }
 
-        User luther = User.builder()
-                .name("Luther")
-                .password(passwordEncoder.encode("1234"))
-                .email("luther@freemail.com")
-                .role(Role.USER)
-                .build();
-        userRepository.save(luther);
-
-        User benji = User.builder()
-                .name("Benji")
-                .password(passwordEncoder.encode("1234"))
-                .email("benji@hotmail.com")
-                .role(Role.USER)
-                .build();
-        userRepository.save(benji);
+    private void createUserIfNotFound(String email, String name, String password, Role role) {
+        if (userRepository.findByEmail(email).isEmpty()) {
+            User user = User.builder()
+                    .name(name)
+                    .password(passwordEncoder.encode(password))
+                    .email(email)
+                    .role(role)
+                    .build();
+            userRepository.save(user);
+        }
     }
 }

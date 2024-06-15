@@ -1,0 +1,5 @@
+<ul *ngIf="availableTimes.length > 0">
+  <li *ngFor="let time of availableTimes" (click)="onSelectTime(time)">
+    {{ time }}
+  </li>
+</ul>
