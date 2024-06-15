@@ -1,0 +1,16 @@
+.calendar-container {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: space-around;
+}
+
+.full-calendar {
+  flex: 1;
+  min-width: 60%;
+}
+
+.times-list {
+  flex: 1;
+  min-width: 40%;
+}

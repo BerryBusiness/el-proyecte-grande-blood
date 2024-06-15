@@ -1,6 +1,12 @@
 <div class="main-content">
   <h1>Welcome to IMF Labs</h1>
-  <button mat-button routerLink="/calendar">Book an appointment</button>
+  <div *ngIf="appointment">
+    <p>Appointment on: {{ appointment?.appointment }}</p>
+    <button (click)="deleteAppointment()">Delete Appointment</button>
+  </div>
+  <div *ngIf="!appointment">
+    <button mat-button routerLink="/calendar">Book an Appointment</button>
+  </div>
   <div class="image-container">
     <img src="assets/high-rise.jpg" alt="high-rise" class="image">
     <img src="assets/lab-equip.jpg" alt="lab equipment" class="image">

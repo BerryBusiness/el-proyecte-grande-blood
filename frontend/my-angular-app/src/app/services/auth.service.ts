@@ -12,6 +12,8 @@ export class AuthService {
   private apiUrl = 'http://localhost:8080/api/users';
   private loggedIn = new BehaviorSubject<boolean>(false);
   private userName = new BehaviorSubject<string | null>(null);
+  private userId = new BehaviorSubject<number | null>(null);
+  private userLoginSubject = new BehaviorSubject<number | null>(null);
 
   constructor(private http: HttpClient) {}
 
@@ -22,14 +24,22 @@ export class AuthService {
   get currentUserName(): Observable<string | null> {
     return this.userName.asObservable();
   }
+  get currentUserId(): Observable<number | null> {
+    return this.userId.asObservable();
+  }
 
   login(credentials: { username: string; password: string }): Observable<AuthResponse> {
     return this.http.post<AuthResponse>(`${this.apiUrl}/login`, credentials).pipe(
       tap(response => {
-        if (response.token) {
+        if (response.token && response.id !== undefined) {
           this.loggedIn.next(true);
           this.userName.next(credentials.username);
+          this.userId.next(Number(response.id));
           localStorage.setItem('authToken', response.token);
+          localStorage.setItem('userId', response.id.toString());
+          this.userLoginSubject.next(Number(response.id));
+        } else {
+          console.error('Token or id missing in response');
         }
       })
     );
@@ -53,5 +63,9 @@ export class AuthService {
     this.loggedIn.next(false);
     this.userName.next(null);
     localStorage.removeItem('authToken');
+  }
+
+  getUserToken(): string | null {
+    return localStorage.getItem('authToken');
   }
 }
